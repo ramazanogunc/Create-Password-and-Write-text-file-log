@@ -30,8 +30,8 @@ int main()
             password[i] = CreatePassword();
     }
     Filewrite( isim, password );
-    printf( "\nSifreniz uretilmis ve dosyaya yazmistir." );
-    printf( "\n%s -> %s", isim, password );
+    printf( "\nSifreniz uretilmis ve dosyaya yazmistir.\n" );
+    printf( "%s -> %s", isim, password );
 
     return 0;
 }
