@@ -24,7 +24,6 @@ int main()
 
     for (i = 0; i < basamakSayisi ; i++)
     {
-        printf("buraya giriyor musun \n");
         password[i] = CreatePassword();
         if( password[i - 1] == password[i] )
             password[i] = CreatePassword();
